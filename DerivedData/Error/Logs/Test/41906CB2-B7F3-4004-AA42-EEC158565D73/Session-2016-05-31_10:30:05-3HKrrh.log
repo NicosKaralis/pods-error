@@ -1,0 +1,827 @@
+10:30:05.922 Xcode[12676:5331732] Beginning test session 05CA3A0B-E933-4EE9-B88A-722568C2446F with Xcode 7D1014 on target <DVTiPhoneSimulator: 0x7fa1cf4a8550> {
+		SimDevice: SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }
+} (9.3 (13E230))
+10:30:05.922 Xcode[12676:5331732] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+10:30:05.924 Xcode[12676:5331732] Initializing test infrastructure.
+10:30:05.924 Xcode[12676:5405722] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Registered for sim device notification, got token 3
+10:30:05.926 Xcode[12676:5405722] Sim iPhone 6s Plus is not booted, will wait up to 120 seconds.
+10:30:05.934 Xcode[12676:5331732] Received Ready from iPhoneSimulator
+10:30:05.935 Xcode[12676:5331732] Sending notification: NSConcreteNotification 0x7fa1cf885710 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE";
+}}
+10:30:06.070 Xcode[12676:5402884] 8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.072 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.073 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.073 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.073 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.074 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.074 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.074 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.075 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.077 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.078 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.077 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.078 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.080 Xcode[12676:5405278] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.081 Xcode[12676:5405278] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.081 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.081 Xcode[12676:5405278] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.082 Xcode[12676:5405278] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.082 Xcode[12676:5405278] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.082 Xcode[12676:5405278] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.083 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:06.084 Xcode[12676:5401502] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutting Down } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 4;
+    notification = "device_state";
+    "prev_state" = 3;
+}
+10:30:07.631 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.631 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.631 Xcode[12676:5406044] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.631 Xcode[12676:5406044] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.631 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5406044] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5406043] 8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9: Received sim device notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.632 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5406075] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5406044] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.633 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 5s (8DDDFFAF-327F-48BE-AD80-FF3FEB74BAD9) : state={ Shutdown } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-5s } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 1;
+    notification = "device_state";
+    "prev_state" = 4;
+}
+10:30:07.643 Xcode[12676:5406072] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Received sim device notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.643 Xcode[12676:5406073] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Received sim device notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.643 Xcode[12676:5406072] Got a sim device notification for iPhone 6s Plus: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.643 Xcode[12676:5406072] Sim iPhone 6s Plus state changed to 2
+10:30:07.643 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.643 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.643 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.644 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.644 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.644 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.644 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.645 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406044] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5405855] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.646 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booting } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 2;
+    notification = "device_state";
+    "prev_state" = 1;
+}
+10:30:07.754 Xcode[12676:5406045] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Received sim device notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5406045] Got a sim device notification for iPhone 6s Plus: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5406045] Sim iPhone 6s Plus state changed to 3
+10:30:07.754 Xcode[12676:5402884] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Received sim device notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5405722] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Unregistering for sim device notification with token 3
+10:30:07.754 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5405722] Sim iPhone 6s Plus is booted (state = 3)
+10:30:07.754 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.754 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406075] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5405722] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+10:30:07.755 Xcode[12676:5406044] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.755 Xcode[12676:5406084] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5406075] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5406074] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5405692] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5406045] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5402884] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5406043] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5406073] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.756 Xcode[12676:5406072] /Users/nicoskaralis/Library/Developer/CoreSimulator/Devices: Received sim device set notification: {
+    device = "SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }";
+    "new_state" = 3;
+    notification = "device_state";
+    "prev_state" = 2;
+}
+10:30:07.871 Xcode[12676:5405722] Returning /private/tmp/com.apple.launchd.599DWDhlhv/com.apple.testmanagerd.unix-domain.socket for TESTMANAGERD_SIM_SOCK
+10:30:07.871 Xcode[12676:5405722] Sim iPhone 6s Plus has testmanagerd socket at /private/tmp/com.apple.launchd.599DWDhlhv/com.apple.testmanagerd.unix-domain.socket
+10:30:07.872 Xcode[12676:5405722] Connected to testmanagerd socket for Sim iPhone 6s Plus
+10:30:07.873 Xcode[12676:5405722] Creating the connection.
+10:30:07.873 Xcode[12676:5405722] Listening for proxy connection request from the test bundle (all platforms)
+10:30:07.873 Xcode[12676:5405722] Resuming the connection.
+10:30:07.873 Xcode[12676:5405722] Test connection requires daemon assistance.
+10:30:07.874 Xcode[12676:5331732] Checking test manager availability..., will wait up to 120s
+10:30:07.874 Xcode[12676:5331732] Starting test session with ID <__NSConcreteUUID 0x7fa1c207c030> 05CA3A0B-E933-4EE9-B88A-722568C2446F
+10:30:29.450 Xcode[12676:5331732] Launch session started, setting a disallow-finish-token on the run operation.
+10:30:29.572 Xcode[12676:5331732] Received Ready from iPhoneSimulator
+10:30:29.572 Xcode[12676:5331732] Sending notification: NSConcreteNotification 0x7fa1c2037270 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE";
+}}
+10:30:29.577 Xcode[12676:5331732] Adding console adaptor <IDEConsoleAdaptor: 0x7fa1bbe91830 'target'> for test session 05CA3A0B-E933-4EE9-B88A-722568C2446F.
+10:30:29.585 Xcode[12676:5331732] Received Ready from iPhoneSimulator
+10:30:29.585 Xcode[12676:5331732] Sending notification: NSConcreteNotification 0x7fa1c1d83ec0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE";
+}}
+10:30:29.586 Xcode[12676:5406858] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Registered for sim device notification, got token 4
+10:30:29.587 Xcode[12676:5406085] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Unregistering for sim device notification with token 4
+10:30:29.592 Xcode[12676:5406045] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Installing app at path: /Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/ErrorUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.ErrorUITests-Runner";
+}
+10:30:31.369 Xcode[12676:5405854] testmanagerd handled session request.
+10:30:31.369 Xcode[12676:5331732] Waiting for test process to launch.
+10:30:32.618 Xcode[12676:5406045] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Installed app at path: /Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/ErrorUITests-Runner.app and options: {
+    CFBundleIdentifier = "com.apple.test.ErrorUITests-Runner";
+}
+10:30:32.622 Xcode[12676:5406045] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Registered for sim device notification, got token 5
+10:30:32.622 Xcode[12676:5407217] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Unregistering for sim device notification with token 5
+10:30:32.623 Xcode[12676:5331732] Received Ready from iPhoneSimulator
+10:30:32.623 Xcode[12676:5331732] Sending notification: NSConcreteNotification 0x7fa1c226fcb0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE";
+}}
+10:30:33.367 Xcode[12676:5406045] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Launching app with identifier: com.apple.test.ErrorUITests-Runner and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DTX_CONNECTION_SERVICES_PATH" = "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/Developer/Library/PrivateFrameworks/DTXConnectionServices.framework";
+        "DYLD_FRAMEWORK_PATH" = "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        "DYLD_LIBRARY_PATH" = "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks";
+        NSUnbufferedIO = YES;
+        "OBJC_DISABLE_GC" = YES;
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/ErrorUITests-Runner.app/PlugIns/ErrorUITests.xctest/ErrorUITests-05CA3A0B-E933-4EE9-B88A-722568C2446F.xctestconfiguration";
+    };
+    stderr = "/dev/ttys004";
+    stdout = "/dev/ttys004";
+    "wait_for_debugger" = 1;
+}
+10:30:33.738 Xcode[12676:5405854] EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE: Launched app with identifier: com.apple.test.ErrorUITests-Runner (pid = 24335)
+10:30:33.739 Xcode[12676:5405854] Tracking pid 24335 for simulator <DVTiPhoneSimulator: 0x7fa1cf4a8550> {
+		SimDevice: SimDevice : iPhone 6s Plus (EBE07BCD-5DB7-43B9-A3F1-BF2965E855DE) : state={ Booted } deviceType={ SimDeviceType : com.apple.CoreSimulator.SimDeviceType.iPhone-6s-Plus } runtime={ SimRuntime : 9.3 (13E230) - com.apple.CoreSimulator.SimRuntime.iOS-9-3 }
+}
+10:30:33.739 Xcode[12676:5405854] Checking to see if pid 24335 is valid: kill(pid, 0) = 0 (YES, it's still running)
+10:30:33.739 Xcode[12676:5405854] Setting up DVTNotifyOnProcDeath for pid 24335
+10:30:40.720 Xcode[12676:5331732] Launch session finished initial intensive file IO.
+10:30:40.720 Xcode[12676:5331732] Waiting for test process to check in..., will wait up to 120s
+10:30:42.679 Xcode[12676:5331732] Got death notice for pid 24335, removing from SimulatorSessionMap
+10:30:42.700 Xcode[12676:5331732] Launch session expired.
+10:30:42.766 Xcode[12676:5331732] Test operation failure: Launch session expired before checking in.
+10:30:42.768 Xcode[12676:5331732] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=4 "Launch session expired before checking in." UserInfo={NSLocalizedDescription=Launch session expired before checking in.} didCancel: 1

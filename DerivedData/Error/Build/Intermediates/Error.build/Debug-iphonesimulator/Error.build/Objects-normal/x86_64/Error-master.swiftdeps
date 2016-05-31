@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "afaf4814cc0d8c37ef13c80723b7d141"
+build_time: [518016619, 400562000]
+inputs:
+  "/Users/nicoskaralis/Desktop/Error/Error/ViewController.swift": [518016324, 0]
+  "/Users/nicoskaralis/Desktop/Error/Error/AppDelegate.swift": [518016324, 0]

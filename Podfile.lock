@@ -1,0 +1,19 @@
+PODS:
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - SimulatorStatusMagic (1.8)
+
+DEPENDENCIES:
+  - Crashlytics
+  - Fabric
+  - SimulatorStatusMagic
+
+SPEC CHECKSUMS:
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  SimulatorStatusMagic: 4dbf0faa0208e9ac0d56cea06eaa5f7a5f3d02fb
+
+PODFILE CHECKSUM: 3e5a6dfbfb9f28e4b224200a834120499585b8c5
+
+COCOAPODS: 1.0.0

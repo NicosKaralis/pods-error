@@ -1,0 +1,117 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/Pods_Error.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-Error-umbrella.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/Target Support Files/Pods-Error/Pods-Error-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_Error-Swift.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/Pods_Error.framework/Headers/Pods_Error-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/Pods_Error.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-Error.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/Pods_ErrorUITests.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ErrorUITests-umbrella.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/Target Support Files/Pods-ErrorUITests/Pods-ErrorUITests-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ErrorUITests-Swift.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/Pods_ErrorUITests.framework/Headers/Pods_ErrorUITests-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/Pods_ErrorUITests.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-ErrorUITests.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/SimulatorStatusMagic/SimulatorStatusMagic.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SDStatusBarManager.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/SimulatorStatusMagic/SDStatusBarManager/SDStatusBarManager.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDStatusBarOverrider.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/SimulatorStatusMagic/SDStatusBarManager/SDStatusBarOverrider.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDStatusBarOverriderPost8_3.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/SimulatorStatusMagic/SDStatusBarManager/SDStatusBarOverriderPost8_3.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDStatusBarOverriderPost9_0.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/SimulatorStatusMagic/SDStatusBarManager/SDStatusBarOverriderPost9_0.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDStatusBarOverriderPost9_3.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/SimulatorStatusMagic/SDStatusBarManager/SDStatusBarOverriderPost9_3.h"
+        },
+        {
+          'type': 'file',
+          'name': "SDStatusBarOverriderPre8_3.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/SimulatorStatusMagic/SDStatusBarManager/SDStatusBarOverriderPre8_3.h"
+        },
+        {
+          'type': 'file',
+          'name': "SimulatorStatusMagic-Swift.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/SimulatorStatusMagic/SimulatorStatusMagic.framework/Headers/SimulatorStatusMagic-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SimulatorStatusMagic-umbrella.h",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/Pods/Target Support Files/SimulatorStatusMagic/SimulatorStatusMagic-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Products/Debug-iphonesimulator/SimulatorStatusMagic/SimulatorStatusMagic.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/nicoskaralis/Desktop/Error/DerivedData/Error/Build/Intermediates/Pods.build/Debug-iphonesimulator/SimulatorStatusMagic.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+ const unsigned char Pods_ErrorUITestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_ErrorUITests  PROJECT:Pods-1" "\n"; const double Pods_ErrorUITestsVersionNumber __attribute__ ((used)) = (double)1.;
